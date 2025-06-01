@@ -17,7 +17,8 @@ streamlit run app/main.py
 streamlit run app/main.py
 
 
-🧠 Approach
+## Approach
+
 CSV Upload – User uploads customer data.
 
 Clustering – KMeans (k=2) clusters customers for 2 trucks.
@@ -26,6 +27,7 @@ TSP Optimization – Google OR-Tools calculates shortest route for each truck (s
 
 Visualization – Shows tables, distances, and route maps using Folium.
 
+## Input
 CustomerID,BusinessName,Latitude,Longitude
 101,Milk Point A,23.0300,72.5800
 102,Dairy Corner B,23.0201,72.5650
